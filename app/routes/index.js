@@ -1,5 +1,5 @@
 module.exports = function(application){
-	application.get('/', function(req, res){
-		application.app.controllers.index.home(application, req, res);
-	});
-}
+    application.post('/api', function (req, res) {
+        application.app.controllers.index.conversation(application, req, res);
+    });
+};

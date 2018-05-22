@@ -1,3 +1,3 @@
-module.exports.home = function (application, req, res) {
-  res.send("Testando");  
-}
+module.exports.conversation = function (application, req, res) {
+  res.json("Testando");
+};
