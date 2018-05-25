@@ -17,7 +17,8 @@ Second Index = Emotion
 
  */
 
-let userAngryResponses = {
+
+let userAngryResponses = { //melhorar
     0: {
         0: [
             "Não se irrite comigo, só estou tentando te ajudar e sei que você é capaz",
@@ -80,17 +81,17 @@ let userAngryResponses = {
     },
     3: {
         0: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
-            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida gera? Basta perguntar 'O que é...'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
             "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
             "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
         ],
         1: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
-            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida gera? Basta perguntar 'O que é...'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
             "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
             "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
         ],
         2: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
-            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida gera? Basta perguntar 'O que é...'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
             "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
             "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
         ]
@@ -171,7 +172,7 @@ let userAngryResponses = {
 };
 
 let userBoredResponses = {
-    0: {
+    0: { //melhorar
         0: ["Não se irrite comigo, só estou tentando te ajudar e sei que você é capaz",
             "Não fique irritado, só estou tentando ajudar porque sei que você é capaz",
             "Por que você está irritado?",
@@ -195,34 +196,109 @@ let userBoredResponses = {
         ]
     },
     1: {
-        0: [],
-        1: [],
-        2: []
+        0: ["O que te faz ficar assim? Talvez seria melhor descansar no momento!",
+            "Sou um assistente virtual, porém não gosto de te ver entediado. Não seria uma boa estratégia mudar a atividade atual?",
+            "O tédio não está associado ao que está fazendo no momento? Tente pular o exercício e isso pode te facilitar",
+            "Não gosto de te ver entendiado. Você gosta de ouvir músicas? Ler notícias? Pode ser o que esteja precisando neste momento."
+        ],
+        1: ["O que te faz ficar assim? Talvez seria melhor descansar no momento!",
+            "Sou um assistente virtual, porém não gosto de te ver entediado. Não seria uma boa estratégia mudar a atividade atual?",
+            "O tédio não está associado ao que está fazendo no momento? Tente pular o exercício e isso pode te facilitar",
+            "Não gosto de te ver entendiado. Você gosta de ouvir músicas? Ler notícias? Pode ser o que esteja precisando neste momento."
+        ],
+        2: ["O que te faz ficar assim? Talvez seria melhor descansar no momento!",
+            "Sou um assistente virtual, porém não gosto de te ver entediado. Não seria uma boa estratégia mudar a atividade atual?",
+            "O tédio não está associado ao que está fazendo no momento? Tente pular o exercício e isso pode te facilitar",
+            "Não gosto de te ver entendiado. Você gosta de ouvir músicas? Ler notícias? Pode ser o que esteja precisando neste momento."
+        ]
     },
     2: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Já procurou saber a origem do conteúdo que está estudando? Sempre há uma história interessante por trás!",
+            "Sugiro pesquisar além do conteúdo passado em sala de aula. Isto nos engrandece.",
+            "Saber a origem e onde o conteúdo que está estudando pode ser aplicado nos encoraja a querer estudar mais",
+            "Que tal aprofundar no assunto que está estudando? Existem muitos materiais interessantes na internet."
+        ],
+        1: ["Já procurou saber a origem do conteúdo que está estudando? Sempre há uma história interessante por trás!",
+            "Sugiro pesquisar além do conteúdo passado em sala de aula. Isto nos engrandece.",
+            "Saber a origem e onde o conteúdo que está estudando pode ser aplicado nos encoraja a querer estudar mais",
+            "Que tal aprofundar no assunto que está estudando? Existem muitos materiais interessantes na internet."
+        ],
+        2: ["Já procurou saber a origem do conteúdo que está estudando? Sempre há uma história interessante por trás!",
+            "Sugiro pesquisar além do conteúdo passado em sala de aula. Isto nos engrandece.",
+            "Saber a origem e onde o conteúdo que está estudando pode ser aplicado nos encoraja a querer estudar mais",
+            "Que tal aprofundar no assunto que está estudando? Existem muitos materiais interessantes na internet."
+        ]
     },
-    3: {
-        0: [],
-        1: [],
-        2: []
+    3: { //melhorar
+        0: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
+            "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
+            "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
+        ],
+        1: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
+            "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
+            "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
+        ],
+        2: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
+            "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
+            "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
+        ]
     },
     4: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Estarei aqui até que saia do tédio.",
+            "Muitas vezes as atividades diárias nos causam tédio, mas seus colegas e professores podem te ajudar a melhorar o humor. Também estou sempre aqui para te fazer feliz",
+            "Nada de tédio por aqui. Vamos tentar resolver as atividades de forma divertida. Chame um colega para colaborar. Tire dúvidas com o professor. Você é muito especial",
+            "Você é muito importante para nós. Vamos lá e dê o seu melhor. Estou aqui torcendo por você.",
+            "Sorria e nada de tédio. Continue sua atividade e eu estarei aqui te ajudando."
+        ],
+        1: ["Estarei aqui até que saia do tédio.",
+            "Muitas vezes as atividades diárias nos causam tédio, mas seus colegas e professores podem te ajudar a melhorar o humor. Também estou sempre aqui para te fazer feliz",
+            "Nada de tédio por aqui. Vamos tentar resolver as atividades de forma divertida. Chame um colega para colaborar. Tire dúvidas com o professor. Você é muito especial",
+            "Você é muito importante para nós. Vamos lá e dê o seu melhor. Estou aqui torcendo por você.",
+            "Sorria e nada de tédio. Continue sua atividade e eu estarei aqui te ajudando."
+        ],
+        2: ["Estarei aqui até que saia do tédio.",
+            "Muitas vezes as atividades diárias nos causam tédio, mas seus colegas e professores podem te ajudar a melhorar o humor. Também estou sempre aqui para te fazer feliz",
+            "Nada de tédio por aqui. Vamos tentar resolver as atividades de forma divertida. Chame um colega para colaborar. Tire dúvidas com o professor. Você é muito especial",
+            "Você é muito importante para nós. Vamos lá e dê o seu melhor. Estou aqui torcendo por você.",
+            "Sorria e nada de tédio. Continue sua atividade e eu estarei aqui te ajudando."
+        ]
     },
-    5: {
-        0: [],
-        1: [],
-        2: []
+    5: { //melhorar
+        0: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ],
+        1: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ],
+        2: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ]
     },
     6: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Você já ouviu falar em wikis? São páginas colaborativas na internet que talvez vá te ajudar neste momento!",
+            "Estou sempre disponível para te ajudar, porém existem outras formas de auxiliá-lo. Procure por fóruns na internet ou seu professor.",
+            "Apesar de eu ser muito esperto, sou apenas um assistente virtual. Que tal procurar seu professor ou colegas neste momento para te auxiliar?",
+            "Gostaria de te ajudar, mas, pelo que consegui compreender, não estou sendo tão útil no momento. Recomendo procurar materiais na internet ou tirar dúvida com seus colegas! "
+        ],
+        1: ["Você já ouviu falar em wikis? São páginas colaborativas na internet que talvez vá te ajudar neste momento!",
+            "Estou sempre disponível para te ajudar, porém existem outras formas de auxiliá-lo. Procure por fóruns na internet ou seu professor.",
+            "Apesar de eu ser muito esperto, sou apenas um assistente virtual. Que tal procurar seu professor ou colegas neste momento para te auxiliar?",
+            "Gostaria de te ajudar, mas, pelo que consegui compreender, não estou sendo tão útil no momento. Recomendo procurar materiais na internet ou tirar dúvida com seus colegas! "
+        ],
+        2: ["Você já ouviu falar em wikis? São páginas colaborativas na internet que talvez vá te ajudar neste momento!",
+            "Estou sempre disponível para te ajudar, porém existem outras formas de auxiliá-lo. Procure por fóruns na internet ou seu professor.",
+            "Apesar de eu ser muito esperto, sou apenas um assistente virtual. Que tal procurar seu professor ou colegas neste momento para te auxiliar?",
+            "Gostaria de te ajudar, mas, pelo que consegui compreender, não estou sendo tão útil no momento. Recomendo procurar materiais na internet ou tirar dúvida com seus colegas! "
+        ]
     },
     7: {
         0: [],
@@ -230,9 +306,21 @@ let userBoredResponses = {
         2: []
     },
     8: {
-        0: [],
-        1: [],
-        2: []
+        0: ["No momento você deveria focar em resolver a atividade!",
+            "Seria interessante você se preocupar em resolver a atividade, posteriormente você pode até auxiliar seus colegas =)",
+            "Você demonstra bom desempenho. Acho que deveria estar focado em resolver a atividade.",
+            "Eu só estou aqui porque você tem atividades para realizar. Vamos lá! Você é capaz de resolver isto em pouco tempo."
+        ],
+        1: ["No momento você deveria focar em resolver a atividade!",
+            "Seria interessante você se preocupar em resolver a atividade, posteriormente você pode até auxiliar seus colegas =)",
+            "Você demonstra bom desempenho. Acho que deveria estar focado em resolver a atividade.",
+            "Eu só estou aqui porque você tem atividades para realizar. Vamos lá! Você é capaz de resolver isto em pouco tempo."
+        ],
+        2: ["No momento você deveria focar em resolver a atividade!",
+            "Seria interessante você se preocupar em resolver a atividade, posteriormente você pode até auxiliar seus colegas =)",
+            "Você demonstra bom desempenho. Acho que deveria estar focado em resolver a atividade.",
+            "Eu só estou aqui porque você tem atividades para realizar. Vamos lá! Você é capaz de resolver isto em pouco tempo."
+        ]
     },
 };
 

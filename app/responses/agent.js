@@ -71,17 +71,17 @@ let agentAnnoyingResponses = {
     },
     3: {
         0: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
-            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida gera? Basta perguntar 'O que é...'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
             "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
             "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
         ],
         1: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
-            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida gera? Basta perguntar 'O que é...'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
             "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
             "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
         ],
         2: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
-            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida gera? Basta perguntar 'O que é...'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
             "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
             "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
         ]
@@ -161,7 +161,7 @@ let agentAnnoyingResponses = {
     },
 };
 
-let agentBoringResponses = {
+let agentBoringResponses = { //melhorar
     0: {
         0: [
             "Não se irrite comigo, só estou tentando te ajudar e sei que você é capaz",
@@ -224,17 +224,17 @@ let agentBoringResponses = {
     },
     3: {
         0: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
-            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida gera? Basta perguntar 'O que é...'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
             "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
             "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
         ],
         1: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
-            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida gera? Basta perguntar 'O que é...'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
             "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
             "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
         ],
         2: ["O que você gostaria de conversar? Sou capaz de fazer rápidas buscas na internet. Basta colocar frases do tipo 'O que é programação de computadores?'",
-            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida gera? Basta perguntar 'O que é...'",
+            "Me parece que o assunto não está te agradando. Fique tranquilo que podemos dialogar sobre outros assuntos. Você tem alguma dúvida geral? Basta perguntar 'O que é...'",
             "Mudar de assunto me parece que te fará bem. Me pergunte sobre algo para eu tentar te ajudar.",
             "Ok! O assunto não parece bom. Vamos lá! Como posso te ajudar? Me pergunte algo para eu tentar te responder"
         ]
