@@ -49,37 +49,37 @@ module.exports.conversation = function (application, req, res) {
             application.app.controllers.dialog.dialogSorry(application, res, intent, personality, emotion);
             break;
         case "smalltalk.emotions.ha_ha":
-            application.app.controllers.dialog.emotionsHaHa(application, res, intent, personality, emotion);
+            application.app.controllers.emotions.emotionsHaHa(application, res, intent, personality, emotion);
             break;
         case "smalltalk.emotions.wow":
-            application.app.controllers.dialog.emotionsWow(application, res, intent, personality, emotion);
+            application.app.controllers.emotions.emotionsWow(application, res, intent, personality, emotion);
             break;
         case "smalltalk.user.angry":
-            application.app.controllers.dialog.userAngry(application, res, intent, personality, emotion);
+            application.app.controllers.user.userAngry(application, res, intent, personality, emotion);
             break;
         case "smalltalk.user.bored":
-            application.app.controllers.dialog.userBored(application, res, intent, personality, emotion);
+            application.app.controllers.user.userBored(application, res, intent, personality, emotion);
             break;
         case "smalltalk.user.does_not_want_to_talk":
-            application.app.controllers.dialog.userDoesNotWantToTalk(application, res, intent, personality, emotion);
+            application.app.controllers.user.userDoesNotWantToTalk(application, res, intent, personality, emotion);
             break;
         case "smalltalk.user.excited":
-            application.app.controllers.dialog.userExcited(application, res, intent, personality, emotion);
+            application.app.controllers.user.userExcited(application, res, intent, personality, emotion);
             break;
         case "smalltalk.user.happy":
-            application.app.controllers.dialog.userHappy(application, res, intent, personality, emotion);
+            application.app.controllers.user.userHappy(application, res, intent, personality, emotion);
             break;
         case "smalltalk.user.joking":
-            application.app.controllers.dialog.userJoking(application, res, intent, personality, emotion);
+            application.app.controllers.user.userJoking(application, res, intent, personality, emotion);
             break;
         case "smalltalk.user.lonely":
-            application.app.controllers.dialog.userLonely(application, res, intent, personality, emotion);
+            application.app.controllers.user.userLonely(application, res, intent, personality, emotion);
             break;
         case "smalltalk.user.sad":
-            application.app.controllers.dialog.userSad(application, res, intent, personality, emotion);
+            application.app.controllers.user.userSad(application, res, intent, personality, emotion);
             break;
         case "smalltalk.user.tired":
-            application.app.controllers.dialog.userTired(application, res, intent, personality, emotion);
+            application.app.controllers.user.userTired(application, res, intent, personality, emotion);
             break;
     }
 };
