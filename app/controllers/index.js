@@ -12,12 +12,9 @@ Personalidades
 8 - meticuloso
 
 Emoções
-0 - alegria
-1 - medo
-2 - desgosto
-3 - surpresa
-4 - raiva
-5 - tristeza
+0 - positivo
+1 - tristeza
+2 - negativo
 
  */
 
@@ -31,20 +28,25 @@ module.exports.conversation = function (application, req, res) {
 
     switch (intent){
         case "smalltalk.agent.annoying":
-            application.app.controllers.funcs.agentAnnoying(intent, personality, emotion);
+            application.app.controllers.agent.agentAnnoying(application, res, intent, personality, emotion);
             break;
         case "smalltalk.agent.boring":
-            application.app.controllers.funcs.agentBoring(intent, personality, emotion);
+            application.app.controllers.agent.agentBoring(application, res, intent, personality, emotion);
             break;
         case "smalltalk.appraisal.bad":
+            application.app.controllers.appraisal.appraisalBad(application, res, intent, personality, emotion);
             break;
         case "smalltalk.appraisal.good":
+            application.app.controllers.appraisal.appraisalGood(application, res, intent, personality, emotion);
             break;
         case "smalltalk.dialog.hug":
+            application.app.controllers.dialog.dialogHug(application, res, intent, personality, emotion);
             break;
         case "smalltalk.dialog.i_do_not_care":
+            application.app.controllers.dialog.dialogIDoNotCare(application, res, intent, personality, emotion);
             break;
         case "smalltalk.dialog.sorry":
+            application.app.controllers.dialog.dialogSorry(application, res, intent, personality, emotion);
             break;
         case "smalltalk.emotions.ha_ha":
             break;
