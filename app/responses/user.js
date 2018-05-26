@@ -422,39 +422,123 @@ let userExcitedResponses = {
 
 let userHappyResponses = {
     0: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Isso aí! Parabéns pelo seu desempenho, você está cada vez melhor!",
+            "Estou feliz com sua alegria! Continue assim!",
+            "Você é genial! Que bom que está feliz!",
+            "Se você está feliz eu fico feliz, você está se superando a cada dia!"
+        ],
+        1: ["Isso aí! Parabéns pelo seu desempenho, você está cada vez melhor!",
+            "Estou feliz com sua alegria! Continue assim!",
+            "Você é genial! Que bom que está feliz!",
+            "Se você está feliz eu fico feliz, você está se superando a cada dia!"
+        ],
+        2: ["Isso aí! Parabéns pelo seu desempenho, você está cada vez melhor!",
+            "Estou feliz com sua alegria! Continue assim!",
+            "Você é genial! Que bom que está feliz!",
+            "Se você está feliz eu fico feliz, você está se superando a cada dia!"
+        ]
     },
     1: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Nosso fórum de discussões é muito legal, lá você pode ter ajuda e ajudar seus amigos!",
+            "Nosso ambiente possui excelentes ferramentas que vão te ajudar a aprimorar seus conhecimentos, utilize nosso chat ou fórum!",
+            "Sei que você é uma pessoa muito esperta e inteligente, mas se precisar consulte nosso fórum de discussões.",
+            "Vamos colaborar no fórum! Seus amigos podem gostar! Seus amigos podem te ajudar!"
+        ],
+        1: ["Nosso fórum de discussões é muito legal, lá você pode ter ajuda e ajudar seus amigos!",
+            "Nosso ambiente possui excelentes ferramentas que vão te ajudar a aprimorar seus conhecimentos, utilize nosso chat ou fórum!",
+            "Sei que você é uma pessoa muito esperta e inteligente, mas se precisar consulte nosso fórum de discussões.",
+            "Vamos colaborar no fórum! Seus amigos podem gostar! Seus amigos podem te ajudar!"
+        ],
+        2: ["Nosso fórum de discussões é muito legal, lá você pode ter ajuda e ajudar seus amigos!",
+            "Nosso ambiente possui excelentes ferramentas que vão te ajudar a aprimorar seus conhecimentos, utilize nosso chat ou fórum!",
+            "Sei que você é uma pessoa muito esperta e inteligente, mas se precisar consulte nosso fórum de discussões.",
+            "Vamos colaborar no fórum! Seus amigos podem gostar! Seus amigos podem te ajudar!"
+        ]
     },
     2: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Você é muito bom e apresenta domínio. Continue aprofundando seus estudos e se surpreendendo!",
+            "Para continuar avançando, sugiro pesquisar além do conteúdo passado em sala de aula. Isto nos engrandece.",
+            "Que tal ir além? Saber a origem e onde o conteúdo que está estudando pode ser aplicado vai te encorajar a querer estudar mais",
+            "Que tal aproveitar o momento e aprofundar no assunto que está estudando? Existem muitos materiais interessantes na internet."
+        ],
+        1: ["Você é muito bom e apresenta domínio. Continue aprofundando seus estudos e se surpreendendo!",
+            "Para continuar avançando, sugiro pesquisar além do conteúdo passado em sala de aula. Isto nos engrandece.",
+            "Que tal ir além? Saber a origem e onde o conteúdo que está estudando pode ser aplicado vai te encorajar a querer estudar mais",
+            "Que tal aproveitar o momento e aprofundar no assunto que está estudando? Existem muitos materiais interessantes na internet."
+        ],
+        2: ["Você é muito bom e apresenta domínio. Continue aprofundando seus estudos e se surpreendendo!",
+            "Para continuar avançando, sugiro pesquisar além do conteúdo passado em sala de aula. Isto nos engrandece.",
+            "Que tal ir além? Saber a origem e onde o conteúdo que está estudando pode ser aplicado vai te encorajar a querer estudar mais",
+            "Que tal aproveitar o momento e aprofundar no assunto que está estudando? Existem muitos materiais interessantes na internet."
+        ]
     },
     3: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Aproveitando seu estado, sugiro você revisar o conteúdo e aprofundar naquilo que ainda tem dúvidas.",
+            "Que tal aproveitar que está feliz e solicitar ao seu professor algum material extra para continuar os estudos? O conhecimento é sempre útil",
+            "Você é muito bom em solucionar suas atividades, aproveite a internet para buscar materiais e atividades complementares!",
+            "Você está feliz e sabe também da sua capacidade. Te recomendo a continuar aprofundando no conhecimento"
+        ],
+        1: ["Aproveitando seu estado, sugiro você revisar o conteúdo e aprofundar naquilo que ainda tem dúvidas.",
+            "Que tal aproveitar que está feliz e solicitar ao seu professor algum material extra para continuar os estudos? O conhecimento é sempre útil",
+            "Você é muito bom em solucionar suas atividades, aproveite a internet para buscar materiais e atividades complementares!",
+            "Você está feliz e sabe também da sua capacidade. Te recomendo a continuar aprofundando no conhecimento"
+        ],
+        2: ["Aproveitando seu estado, sugiro você revisar o conteúdo e aprofundar naquilo que ainda tem dúvidas.",
+            "Que tal aproveitar que está feliz e solicitar ao seu professor algum material extra para continuar os estudos? O conhecimento é sempre útil",
+            "Você é muito bom em solucionar suas atividades, aproveite a internet para buscar materiais e atividades complementares!",
+            "Você está feliz e sabe também da sua capacidade. Te recomendo a continuar aprofundando no conhecimento"
+        ]
     },
     4: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Você é um excelente estudante. Continue resolvendo suas atividades no prazo para ter bons resultados!",
+            "Eu estou sempre aqui para te incentivar a continuar feliz.",
+            "Eu só tenho elogios a você. Procure administrar bem seu tempo para estar sempre feliz!!",
+            "Aproveite sua energia e, caso tenha atividades pendentes, tente resolvê-las! Você é capaz!"
+        ],
+        1: ["Você é um excelente estudante. Continue resolvendo suas atividades no prazo para ter bons resultados!",
+            "Eu estou sempre aqui para te incentivar a continuar feliz.",
+            "Eu só tenho elogios a você. Procure administrar bem seu tempo para estar sempre feliz!!",
+            "Aproveite sua energia e, caso tenha atividades pendentes, tente resolvê-las! Você é capaz!"
+        ],
+        2: ["Você é um excelente estudante. Continue resolvendo suas atividades no prazo para ter bons resultados!",
+            "Eu estou sempre aqui para te incentivar a continuar feliz.",
+            "Eu só tenho elogios a você. Procure administrar bem seu tempo para estar sempre feliz!!",
+            "Aproveite sua energia e, caso tenha atividades pendentes, tente resolvê-las! Você é capaz!"
+        ]
     },
     5: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Você conhece sobre tecnologias educacionais? Podcasts e blogs também servem para auxiliar na educação. Aproveite que está alegre e procure materiais complementares para o conteúdo estudado",
+            "Seu assistente também está feliz por você. Ficarei mais feliz se você for além do conteúdo da atividade e aprofundar seu conhecimento.",
+            "Continue feliz. A internet possui materiais distintos que podem te ensinar enquanto diverte. Procure mais sobre o conteúdo estudado.",
+            "Que bom que você está feliz, aproveite a internet para procurar novidades sobre o tema que está estudando!"
+        ],
+        1: ["Você conhece sobre tecnologias educacionais? Podcasts e blogs também servem para auxiliar na educação. Aproveite que está alegre e procure materiais complementares para o conteúdo estudado",
+            "Seu assistente também está feliz por você. Ficarei mais feliz se você for além do conteúdo da atividade e aprofundar seu conhecimento.",
+            "Continue feliz. A internet possui materiais distintos que podem te ensinar enquanto diverte. Procure mais sobre o conteúdo estudado.",
+            "Que bom que você está feliz, aproveite a internet para procurar novidades sobre o tema que está estudando!"
+        ],
+        2: ["Você conhece sobre tecnologias educacionais? Podcasts e blogs também servem para auxiliar na educação. Aproveite que está alegre e procure materiais complementares para o conteúdo estudado",
+            "Seu assistente também está feliz por você. Ficarei mais feliz se você for além do conteúdo da atividade e aprofundar seu conhecimento.",
+            "Continue feliz. A internet possui materiais distintos que podem te ensinar enquanto diverte. Procure mais sobre o conteúdo estudado.",
+            "Que bom que você está feliz, aproveite a internet para procurar novidades sobre o tema que está estudando!"
+        ]
     },
     6: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Você já ouviu falar em wikis? São páginas colaborativas na internet que talvez vá te ajudar neste momento!",
+            "Estou sempre disponível para te ajudar, além disso, existem outras formas de auxiliá-lo. Procure por fóruns na internet ou seu professor sempre que sentir necessidade. Vai te ajudar a continuar feliz.",
+            "Sou tão esperto que sinto que está feliz. Que tal verificar se seus colegas não necessitam de ajuda? Mostre todo seu conhecimento nos fóruns! Lá o professor consegue também interagir com você",
+            "Acredito que seu estado tem refletido em bons resultados. Recomendo sempre procurar materiais na internet ou tirar dúvida com seus colegas para engrandecer! "
+        ],
+        1: ["Você já ouviu falar em wikis? São páginas colaborativas na internet que talvez vá te ajudar neste momento!",
+            "Estou sempre disponível para te ajudar, além disso, existem outras formas de auxiliá-lo. Procure por fóruns na internet ou seu professor sempre que sentir necessidade. Vai te ajudar a continuar feliz.",
+            "Sou tão esperto que sinto que está feliz. Que tal verificar se seus colegas não necessitam de ajuda? Mostre todo seu conhecimento nos fóruns! Lá o professor consegue também interagir com você",
+            "Acredito que seu estado tem refletido em bons resultados. Recomendo sempre procurar materiais na internet ou tirar dúvida com seus colegas para engrandecer! "
+        ],
+        2: ["Você já ouviu falar em wikis? São páginas colaborativas na internet que talvez vá te ajudar neste momento!",
+            "Estou sempre disponível para te ajudar, além disso, existem outras formas de auxiliá-lo. Procure por fóruns na internet ou seu professor sempre que sentir necessidade. Vai te ajudar a continuar feliz.",
+            "Sou tão esperto que sinto que está feliz. Que tal verificar se seus colegas não necessitam de ajuda? Mostre todo seu conhecimento nos fóruns! Lá o professor consegue também interagir com você",
+            "Acredito que seu estado tem refletido em bons resultados. Recomendo sempre procurar materiais na internet ou tirar dúvida com seus colegas para engrandecer! "
+        ]
     },
     7: {
         0: [],
@@ -462,9 +546,21 @@ let userHappyResponses = {
         2: []
     },
     8: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Vamos resolver as atividades propostas no ambiente de aprendizado, você pode aprender muito com elas!",
+            "Resolva suas atividades, posteriormente você pode até auxiliar seus colegas!",
+            "Você é um excelente aluno, vamos focar em resolver suas atividades.",
+            "Você é muito esperto, sei que consegue resolver as atividades muito rápido. Vamos lá!"
+        ],
+        1: ["Vamos resolver as atividades propostas no ambiente de aprendizado, você pode aprender muito com elas!",
+            "Resolva suas atividades, posteriormente você pode até auxiliar seus colegas!",
+            "Você é um excelente aluno, vamos focar em resolver suas atividades.",
+            "Você é muito esperto, sei que consegue resolver as atividades muito rápido. Vamos lá!"
+        ],
+        2: ["Vamos resolver as atividades propostas no ambiente de aprendizado, você pode aprender muito com elas!",
+            "Resolva suas atividades, posteriormente você pode até auxiliar seus colegas!",
+            "Você é um excelente aluno, vamos focar em resolver suas atividades.",
+            "Você é muito esperto, sei que consegue resolver as atividades muito rápido. Vamos lá!"
+        ]
     },
 };
 
