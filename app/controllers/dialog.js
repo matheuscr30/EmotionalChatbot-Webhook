@@ -1,6 +1,6 @@
 module.exports.dialogHug = function (application, res, intent, personality, emotion) {
     let responses = global.dialogHugResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({
@@ -10,7 +10,7 @@ module.exports.dialogHug = function (application, res, intent, personality, emot
 
 module.exports.dialogIDoNotCare = function (application, res, intent, personality, emotion) {
     let responses = global.dialogIDoNotCareResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({
@@ -20,7 +20,7 @@ module.exports.dialogIDoNotCare = function (application, res, intent, personalit
 
 module.exports.dialogSorry = function (application, res, intent, personality, emotion) {
     let responses = global.dialogSorryResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({

@@ -21,10 +21,10 @@ app.use(bodyParser.json());
 app.use(expressValidator());
 
 /* efetua o autoload das rotas, dos models e dos controllers para o objeto app */
-consign()
-	.include('app/routes')
-	.then('app/controllers')
-	.then('app/responses')
+consign({cwd: process.cwd() + "/app"})
+	.include('routes')
+	.then('controllers')
+	.then('responses')
 	.into(app);
 
 /* exportar o objeto app */

@@ -1,6 +1,6 @@
 module.exports.userAngry = function (application, res, intent, personality, emotion) {
     let responses = global.userAngryResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({
@@ -10,7 +10,7 @@ module.exports.userAngry = function (application, res, intent, personality, emot
 
 module.exports.userBored = function (application, res, intent, personality, emotion) {
     let responses = global.userBoredResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({
@@ -20,7 +20,7 @@ module.exports.userBored = function (application, res, intent, personality, emot
 
 module.exports.userDoesNotWantToTalk = function (application, res, intent, personality, emotion) {
     let responses = global.userDoesNotWantToTalkResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({
@@ -30,7 +30,7 @@ module.exports.userDoesNotWantToTalk = function (application, res, intent, perso
 
 module.exports.userExcited = function (application, res, intent, personality, emotion) {
     let responses = global.userExcitedResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({
@@ -40,7 +40,7 @@ module.exports.userExcited = function (application, res, intent, personality, em
 
 module.exports.userHappy = function (application, res, intent, personality, emotion) {
     let responses = global.userHappyResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({
@@ -50,7 +50,7 @@ module.exports.userHappy = function (application, res, intent, personality, emot
 
 module.exports.userJoking = function (application, res, intent, personality, emotion) {
     let responses = global.userJokingResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({
@@ -60,7 +60,7 @@ module.exports.userJoking = function (application, res, intent, personality, emo
 
 module.exports.userLonely = function (application, res, intent, personality, emotion) {
     let responses = global.userLonelyResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({
@@ -70,7 +70,7 @@ module.exports.userLonely = function (application, res, intent, personality, emo
 
 module.exports.userSad = function (application, res, intent, personality, emotion) {
     let responses = global.userSadResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({
@@ -80,7 +80,7 @@ module.exports.userSad = function (application, res, intent, personality, emotio
 
 module.exports.userTired = function (application, res, intent, personality, emotion) {
     let responses = global.userTiredResponses[personality][emotion];
-    let rand = application.app.controllers.funcs.generateRand(responses.length);
+    let rand = application.controllers.funcs.generateRand(responses.length);
     let result = responses[rand];
 
     res.status(200).json({
