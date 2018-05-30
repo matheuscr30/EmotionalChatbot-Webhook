@@ -740,18 +740,53 @@ let userTiredResponses = {
         2: []
     },
     6: {
-        0: [],
+        0: [
+            "Não tem problema, você está dando seu melhor.E, volte mais tarde para tentar de novo",
+            "Não fique cansado, o importante é tentar. Descanse um pouco e volte depois",
+            "Descanse um pouco, você merece e está dando o seu melhor para resolver a atividade",
+            ""
+        ],
         1: [],
         2: []
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Não desista agora, pesquise outros materiais para aprofundar seus conhecimentos",
+            "Ignore o cansaço, busque materiais extras para complementar seus estudos e sanar dúvidas",
+            "Tenha mais fôlego, e busque materiais extras na internet para se aprofundar no assunto",
+            "Esqueça o cansaço e tente aprofundar mais os conhecimentos para resolver o exercício"
+        ],
+        1: [
+            "Não desista agora, pesquise outros materiais para aprofundar seus conhecimentos",
+            "Ignore o cansaço, busque materiais extras para complementar seus estudos e sanar dúvidas",
+            "Tenha mais fôlego, e busque materiais extras na internet para se aprofundar no assunto",
+            "Esqueça o cansaço e tente aprofundar mais os conhecimentos para resolver o exercício"
+        ],
+        2: [
+            "Não desista agora, pesquise outros materiais para aprofundar seus conhecimentos",
+            "Ignore o cansaço, busque materiais extras para complementar seus estudos e sanar dúvidas",
+            "Tenha mais fôlego, e busque materiais extras na internet para se aprofundar no assunto",
+            "Esqueça o cansaço e tente aprofundar mais os conhecimentos para resolver o exercício"
+        ]
     },
     8: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Descanse um pouco e eu tenho certeza que quando voltar você irá fazer a atividade",
+            "Você só está um pouco cansado, mas tenho certeza que você consegue",
+            "Deite um pouco e relaxe. E volte daqui a pouco",
+            "Relaxe e descanse um pouco, depois volte que conseguirá resolver o exercício"
+        ],
+        1: [
+            "Descanse um pouco e eu tenho certeza que quando voltar você irá fazer a atividade",
+            "Você só está um pouco cansado, mas tenho certeza que você consegue",
+            "Deite um pouco e relaxe. E volte daqui a pouco",
+            "Relaxe e descanse um pouco, depois volte que conseguirá resolver o exercício"
+        ],
+        2: [
+            "Descanse um pouco e eu tenho certeza que quando voltar você irá fazer a atividade",
+            "Você só está um pouco cansado, mas tenho certeza que você consegue",
+            "Deite um pouco e relaxe. E volte daqui a pouco",
+            "Relaxe e descanse um pouco, depois volte que conseguirá resolver o exercício"
+        ]
     },
-}
+};

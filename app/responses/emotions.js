@@ -12,9 +12,21 @@ Second Index = Emotion
 
 let emotionsHaHaResponses = {
     0: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Que bom que você está feliz, é a hora perfeita para fazer o exercício",
+            "É muito bom te ver alegre, adoro conversar com você. Vamos fazer o exercício agora?",
+            "Que bom que está se divertindo. Agora vamos fazer o exercício, pois sei que você é totalmente capaz"
+        ],
+        1: [
+            "Que bom que você está ficando mais feliz, é a hora perfeita para fazer o exercício",
+            "É muito bom te ver alegre, adoro conversar com você. Vamos fazer o exercício agora?",
+            "É bom rir para a tristeza ir embora. Agora vamos fazer o exercício, pois sei que você é totalmente capaz"
+        ],
+        2: [
+            "Quanto mais risada, mais positivo ficamos e assim fica mais fácil fazer o exercício",
+            "É muito bom te ver alegre, tente ser mais positivo. Eu sei que você consegue",
+            "É bom rir para diminuir o baixo astral. Agora vamos fazer o exercício, pois sei que você é totalmente capaz"
+        ]
     },
     1: {
         0: [],
