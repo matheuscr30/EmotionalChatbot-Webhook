@@ -221,9 +221,24 @@ let userSadResponses = {
         2: []
     },
     2: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Eu sei que está triste, mas tenho certeza que você consegue resolver esse exercício. Tente procurar novos materiais de estudo",
+            "Eu tenho certeza que você vai melhorar. Se divirta um pouco e busque outras fontes de conhecimento e resola o exercício",
+            "Procure outros materiais de estudo na internet, resolva o exercício e depois se divirta com seus amigos",
+            "Busque conteúdos novos na internet, resolva o exercício e divirta-se"
+        ],
+        1: [
+            "Eu sei que está triste, mas tenho certeza que você consegue resolver esse exercício. Tente procurar novos materiais de estudo",
+            "Eu tenho certeza que você vai melhorar. Se divirta um pouco e busque outras fontes de conhecimento e resola o exercício",
+            "Procure outros materiais de estudo na internet, resolva o exercício e depois se divirta com seus amigos",
+            "Busque conteúdos novos na internet, resolva o exercício e divirta-se"
+        ],
+        2: [
+            "Não se sinta deprimido, tenha mais segurança em você mesmo. Sei que é capaz de resolver o exercício",
+            "Não se sinta assim, tenha mais segurança em si mesmo. Sei que é capaz de resolver o exercício",
+            "Não gosto de ver desse jeito. Tenho total segurança de que você conseguirá resolver o exercício",
+            "Não me sinto bem te vendo desse jeito. Você é forte, tenha mais segurança em si mesmo"
+        ]
     },
     3: {
         0: [
