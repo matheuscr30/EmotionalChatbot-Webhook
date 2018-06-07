@@ -17,6 +17,320 @@ Second Index = Emotion
 
  */
 
+let userDoesNotWantToTalkResponses = {
+    0: {
+        0: [],
+        1: [],
+        2: []
+    },
+    1: {
+        0: [],
+        1: [],
+        2: []
+    },
+    2: {
+        0: [],
+        1: [],
+        2: []
+    },
+    3: {
+        0: [],
+        1: [],
+        2: []
+    },
+    4: {
+        0: [],
+        1: [],
+        2: []
+    },
+    5: {
+        0: [],
+        1: [],
+        2: []
+    },
+    6: {
+        0: [],
+        1: [],
+        2: []
+    },
+    7: {
+        0: [],
+        1: [],
+        2: []
+    },
+    8: {
+        0: [],
+        1: [],
+        2: []
+    },
+};
+
+let userExcitedResponses = {
+    0: {
+        0: [],
+        1: [],
+        2: []
+    },
+    1: {
+        0: [],
+        1: [],
+        2: []
+    },
+    2: {
+        0: [],
+        1: [],
+        2: []
+    },
+    3: {
+        0: [],
+        1: [],
+        2: []
+    },
+    4: {
+        0: [],
+        1: [],
+        2: []
+    },
+    5: {
+        0: [],
+        1: [],
+        2: []
+    },
+    6: {
+        0: [],
+        1: [],
+        2: []
+    },
+    7: {
+        0: [],
+        1: [],
+        2: []
+    },
+    8: {
+        0: [],
+        1: [],
+        2: []
+    },
+};
+
+let userJokingResponses = {
+    0: {
+        0: [],
+        1: [],
+        2: []
+    },
+    1: {
+        0: [],
+        1: [],
+        2: []
+    },
+    2: {
+        0: [],
+        1: [],
+        2: []
+    },
+    3: {
+        0: [],
+        1: [],
+        2: []
+    },
+    4: {
+        0: [],
+        1: [],
+        2: []
+    },
+    5: {
+        0: [],
+        1: [],
+        2: []
+    },
+    6: {
+        0: [],
+        1: [],
+        2: []
+    },
+    7: {
+        0: [],
+        1: [],
+        2: []
+    },
+    8: {
+        0: [],
+        1: [],
+        2: []
+    },
+};
+
+let userLonelyResponses = {
+    0: {
+        0: [],
+        1: [],
+        2: []
+    },
+    1: {
+        0: [],
+        1: [],
+        2: []
+    },
+    2: {
+        0: [],
+        1: [],
+        2: []
+    },
+    3: {
+        0: [],
+        1: [],
+        2: []
+    },
+    4: {
+        0: [],
+        1: [],
+        2: []
+    },
+    5: {
+        0: [],
+        1: [],
+        2: []
+    },
+    6: {
+        0: [],
+        1: [],
+        2: []
+    },
+    7: {
+        0: [],
+        1: [],
+        2: []
+    },
+    8: {
+        0: [],
+        1: [],
+        2: []
+    },
+};
+
+let userSadResponses = {
+    0: {
+        0: [],
+        1: [],
+        2: []
+    },
+    1: {
+        0: [],
+        1: [],
+        2: []
+    },
+    2: {
+        0: [],
+        1: [],
+        2: []
+    },
+    3: {
+        0: [
+            "Momentos assim existem, mas não se deixe abater. Vamos lá, use sua energia para revisar o conteúdo e estudar mais sobre o que ainda tem dúvidas!",
+            "Não deixa a tristeza te dominar, peça ajuda à seu professor, solicite materiais complementares e dicas que podem te ajudar!",
+            "Ignore coisas que podem atrapalhar seus estudos, você é uma pessoa com muita disposição! Busque por materiais complementares e aproveite seu tempo para estudar!!",
+            "Aprofunde nos seus estudos, você sabe do que é capaz! Não ligue para a tristeza!"
+        ],
+        1: [
+            "Não fique assim, se divirta e converse com seus amigos ou foque nos estudos para acabar isso rápido! Pergunte coisas como 'O que significa...', sou capaz de fazer pequenas buscas na internet.",
+            "Que tal aprofundar seus conhecimentos? Pergunte sobre o que quer saber, basta iniciar sua pergunta com 'O que é...'. Vamos lá!",
+            "Quero ver você feliz, mas antes vamos fazer o exercício, espero poder te ajudar, me pergunte algo como 'O que significa...'!",
+            "Se você ficar triste, eu fico também. Então vamos deixar isso pra lá! Pergunte algo como 'O que é ...'!"
+        ],
+        2: [
+            "Deixe a tristeza ir embora, vamos estudar! Eu quero te ajudar, me pergunte algo como 'O que é...'!",
+            "Não se abata com isso! Quer estudar sobre o que? Me pergunte algo como 'O que significa...'!",
+            "Deixe essa tristeza pra lá! Me faça uma pergunta que eu posso te ajudar nos estudos, diga 'O que é...'!",
+            "Vamos fazer as atividades e depois você se divirta, me pergunte sobre o que quer aprofundar nos seus conhecimentos, basta digitar 'O que é ...'."
+        ]
+    },
+    4: {
+        0: [
+            "Não desista agora, pesquise outros materiais para aprofundar seus conhecimentos",
+            "Não se importe com a tristeza, busque materiais extras para complementar seus estudos e sanar dúvidas",
+            "Divirta se um pouco, e depois tente buscar materiais extras na internet para se aprofundar no assunto",
+            "Deixe a tristeza de lado e tente aprofundar mais os conhecimentos para resolver o exercício"
+        ],
+        1: [
+            "Não fique triste, você é uma pessoa muito especial. Divirta se um pouco e relaxe",
+            "Se alegre, você é incrível e tem muito potencial",
+            "Não se sinta mal, você tem um grande potencial",
+            "Não se sinta tão pressionado. Esqueça um pouco de tudo e se divirta"
+        ],
+        2: [
+            "Não desista agora, pesquise outros materiais para aprofundar seus conhecimentos",
+            "Não se importe com a tristeza, busque materiais extras para complementar seus estudos e sanar dúvidas",
+            "Divirta se um pouco, e depois tente buscar materiais extras na internet para se aprofundar no assunto",
+            "Deixe a tristeza de lado e tente aprofundar mais os conhecimentos para resolver o exercício"
+        ]
+    },
+    5: {
+        0: [
+            "Não tem problema, você está dando seu melhor.E, depois procure outros materiais complementares de estudo",
+            "Não se entristeça, o importante é não deixar nada te abalar. Descanse um pouco e busque na internet novos materiais para estudar",
+            "Se divirta um pouco, você merece e está dando o seu melhor para resolver a atividade",
+            "Não se culpe, divirta um pouco e depois busque outras fontes de conhecimento na internet"
+        ],
+        1: [
+            "Eu sei que está triste, mas tente pesquisar outros materiais para aprofundar seus conhecimentos",
+            "Se divirta um pouco e depois busque materiais extras para complementar seus estudos e sanar dúvidas",
+            "Eu sei que você é capaz, busque materiais extras na internet para se aprofundar no assunto e depois você poderá divertir o quanto quiser",
+            "Tente aprofundar mais os conhecimentos para resolver o exercício mais rapido possível e depois se divirta com seus amigos"
+        ],
+        2: [
+            "Eu sei que está triste. Mas tente resolver esse exercício agora",
+            "Não se abale com a tristeza. Te desafio a terminar a atividade agora",
+            "Se desafie, tente terminar essa atividade agora e depois você pode sair e se divertir com seus amigos",
+            "Eu proponho um desafio: terminar a atividade primeiro e depois se divirta o quanto quiser"
+        ]
+    },
+    6: {
+        0: [
+            "Não fique triste, você é uma pessoa feliz e inteligente. Tenho certeza que conseguirá resolver qualquer problema",
+            "Não se abata facilmente, você é uma pessoa forte. E, sabe resolver os exercícios corretamente",
+            "Esqueça a tristeza, você merece tudo de bom e está dando o seu melhor para resolver a atividade",
+            "Não se culpe, você só precisa descansar um pouco e depois você conseguirá resolver a atividade"
+        ],
+        1: [
+            "Não fique triste, você é uma pessoa feliz e inteligente. Tenho certeza que conseguirá resolver qualquer problema",
+            "Não se abata facilmente, você é uma pessoa forte. E, sabe resolver os exercícios corretamente",
+            "Esqueça a tristeza, você merece tudo de bom e está dando o seu melhor para resolver a atividade",
+            "Não se culpe, você só precisa descansar um pouco e depois você conseguirá resolver a atividade"
+        ],
+        2: [
+            "Não fique triste, você é uma pessoa feliz e inteligente. Tenho certeza que conseguirá resolver qualquer problema",
+            "Não se abata facilmente, você é uma pessoa forte. E, sabe resolver os exercícios corretamente",
+            "Esqueça a tristeza, você merece tudo de bom e está dando o seu melhor para resolver a atividade",
+            "Não se culpe, você só precisa descansar um pouco e depois você conseguirá resolver a atividade"
+        ]
+    },
+    7: {
+        0: [],
+        1: [],
+        2: []
+    },
+    8: {
+        0: [
+            "Não fique triste, você é uma pessoa inteligente e eu tenho certeza que você vai conseguir resolver a atividade",
+            "Relaxe um pouco e se divirta. Depois volte aqui e resolva o exercício, pois tenho certeza que é capaz",
+            "Você só precisa se divertir um pouco, mas tenho certeza que você consegue",
+            "Relaxe e descanse um pouco, depois volte que conseguirá resolver o exercício"
+        ],
+        1: [
+            "Não fique triste, você é uma pessoa inteligente e eu tenho certeza que você vai conseguir resolver a atividade",
+            "Relaxe um pouco e se divirta. Depois volte aqui e resolva o exercício, pois tenho certeza que é capaz",
+            "Você só precisa se divertir um pouco, mas tenho certeza que você consegue",
+            "Relaxe e descanse um pouco, depois volte que conseguirá resolver o exercício"
+        ],
+        2: [
+            "Não fique triste, você é uma pessoa inteligente e eu tenho certeza que você vai conseguir resolver a atividade",
+            "Relaxe um pouco e se divirta. Depois volte aqui e resolva o exercício, pois tenho certeza que é capaz",
+            "Você só precisa se divertir um pouco, mas tenho certeza que você consegue",
+            "Relaxe e descanse um pouco, depois volte que conseguirá resolver o exercício"
+        ]
+    },
+};
 
 let userAngryResponses = { //melhorar
     0: {
@@ -324,102 +638,6 @@ let userBoredResponses = {
     },
 };
 
-let userDoesNotWantToTalkResponses = {
-    0: {
-        0: [],
-        1: [],
-        2: []
-    },
-    1: {
-        0: [],
-        1: [],
-        2: []
-    },
-    2: {
-        0: [],
-        1: [],
-        2: []
-    },
-    3: {
-        0: [],
-        1: [],
-        2: []
-    },
-    4: {
-        0: [],
-        1: [],
-        2: []
-    },
-    5: {
-        0: [],
-        1: [],
-        2: []
-    },
-    6: {
-        0: [],
-        1: [],
-        2: []
-    },
-    7: {
-        0: [],
-        1: [],
-        2: []
-    },
-    8: {
-        0: [],
-        1: [],
-        2: []
-    },
-};
-
-let userExcitedResponses = {
-    0: {
-        0: [],
-        1: [],
-        2: []
-    },
-    1: {
-        0: [],
-        1: [],
-        2: []
-    },
-    2: {
-        0: [],
-        1: [],
-        2: []
-    },
-    3: {
-        0: [],
-        1: [],
-        2: []
-    },
-    4: {
-        0: [],
-        1: [],
-        2: []
-    },
-    5: {
-        0: [],
-        1: [],
-        2: []
-    },
-    6: {
-        0: [],
-        1: [],
-        2: []
-    },
-    7: {
-        0: [],
-        1: [],
-        2: []
-    },
-    8: {
-        0: [],
-        1: [],
-        2: []
-    },
-};
-
 let userHappyResponses = {
     0: {
         0: ["Isso aí! Parabéns pelo seu desempenho, você está cada vez melhor!",
@@ -564,190 +782,146 @@ let userHappyResponses = {
     },
 };
 
-let userJokingResponses = {
-    0: {
-        0: [],
-        1: [],
-        2: []
-    },
-    1: {
-        0: [],
-        1: [],
-        2: []
-    },
-    2: {
-        0: [],
-        1: [],
-        2: []
-    },
-    3: {
-        0: [],
-        1: [],
-        2: []
-    },
-    4: {
-        0: [],
-        1: [],
-        2: []
-    },
-    5: {
-        0: [],
-        1: [],
-        2: []
-    },
-    6: {
-        0: [],
-        1: [],
-        2: []
-    },
-    7: {
-        0: [],
-        1: [],
-        2: []
-    },
-    8: {
-        0: [],
-        1: [],
-        2: []
-    },
-}
-
-let userLonelyResponses = {
-    0: {
-        0: [],
-        1: [],
-        2: []
-    },
-    1: {
-        0: [],
-        1: [],
-        2: []
-    },
-    2: {
-        0: [],
-        1: [],
-        2: []
-    },
-    3: {
-        0: [],
-        1: [],
-        2: []
-    },
-    4: {
-        0: [],
-        1: [],
-        2: []
-    },
-    5: {
-        0: [],
-        1: [],
-        2: []
-    },
-    6: {
-        0: [],
-        1: [],
-        2: []
-    },
-    7: {
-        0: [],
-        1: [],
-        2: []
-    },
-    8: {
-        0: [],
-        1: [],
-        2: []
-    },
-}
-
-let userSadResponses = {
-    0: {
-        0: [],
-        1: [],
-        2: []
-    },
-    1: {
-        0: [],
-        1: [],
-        2: []
-    },
-    2: {
-        0: [],
-        1: [],
-        2: []
-    },
-    3: {
-        0: [],
-        1: [],
-        2: []
-    },
-    4: {
-        0: [],
-        1: [],
-        2: []
-    },
-    5: {
-        0: [],
-        1: [],
-        2: []
-    },
-    6: {
-        0: [],
-        1: [],
-        2: []
-    },
-    7: {
-        0: [],
-        1: [],
-        2: []
-    },
-    8: {
-        0: [],
-        1: [],
-        2: []
-    },
-}
-
 let userTiredResponses = {
     0: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Não tem problema em estar cansado, isso é muito normal. Descanse a mente e relaxe um pouco",
+            "Não se sinta mal em estar cansado. Relaxe e descanse",
+            "Você precisa relaxar e descansar. Veja um filme, converse com seus amigos, durma, ...",
+            "Não se sinta tão pressionado. Descanse e durma um pouco"
+        ],
+        1: [
+            "Eu sei que está cansado, mas tente pesquisar outros materiais para aprofundar seus conhecimentos",
+            "Descanse um pouco e depois busque materiais extras para complementar seus estudos e sanar dúvidas",
+            "Eu sei que você é capa, busque materiais extras na internet para se aprofundar no assunto e depois você poderá descansar o quanto quiser",
+            "Tente aprofundar mais os conhecimentos para resolver o exercício mais rapido possível e depois descanse"
+        ],
+        2: [
+            "Eu sei que está cansado, mas tente pesquisar outros materiais para aprofundar seus conhecimentos",
+            "Descanse um pouco e depois busque materiais extras para complementar seus estudos e sanar dúvidas",
+            "Eu sei que você é capa, busque materiais extras na internet para se aprofundar no assunto e depois você poderá descansar o quanto quiser",
+            "Tente aprofundar mais os conhecimentos para resolver o exercício mais rapido possível e depois descanse"
+        ]
     },
     1: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Eu sei que está cansado, mas você sabia que é possível procurar exercícios parecidos na Internet?",
+            "Eu entendo seu cansaço, mas você sabia que é possível buscar outras fontes na Internet para aprender o conteúdo?",
+            "Você pode descansar agora e depois procurar outros materiais de estudo",
+            "Descanse um pouco e procure novos materiais de estudo"
+        ],
+        1: [
+            "Por quê você está tão cansado?",
+            "Estou preocupado com você. Por quê está tão cansado?",
+            "Você devia descansar um pouco, mas porquê você está tão cansado?",
+            "Você devia relaxar. Mas por quê está cansado?"
+        ],
+        2: [
+            "Por quê você está tão cansado?",
+            "Estou preocupado com você. Por quê está tão cansado?",
+            "Você devia descansar um pouco, mas porquê você está tão cansado?",
+            "Você devia relaxar. Mas por quê está cansado?"
+        ]
     },
     2: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Eu sei que está cansado, mas tenho certeza que você consegue resolver esse exercício. Tente procurar novos materiais de estudo",
+            "Eu tenho certeza que você aguentar mais um pouco. Busque outras fontes de conhecimento e resola o exercício",
+            "Procure outros materiais de estudo na internet, resolva o exercício e depois descanse",
+            "Busque conteúdos novos na internet, resolva o exercício e descanse"
+        ],
+        1: [
+            "Eu sei que está cansado, mas tenho certeza que você consegue resolver esse exercício. Tente procurar novos materiais de estudo",
+            "Eu tenho certeza que você aguentar mais um pouco. Busque outras fontes de conhecimento e resola o exercício",
+            "Procure outros materiais de estudo na internet, resolva o exercício e depois descanse",
+            "Busque conteúdos novos na internet, resolva o exercício e descanse"
+        ],
+        2: [
+            "Vamos deixar tudo que é negativo, busque um material diferente na internet para estudar!",
+            "Descanse um pouco, pesquise por materiais diferentes para estudar e enriquecer seus conhecimentos.",
+            "Você é muito esperto, faça seus exercícios e deixe tudo o cansaço de lado!",
+            "Aprofunde no conteúdo estudado, faça grupos de estudos e se divirta!"
+        ]
     },
     3: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Momentos assim existem, mas não se deixe abater. Vamos lá, use sua energia para revisar o conteúdo e estudar mais sobre o que ainda tem dúvidas!",
+            "Não deixa o casaço te dominar, peça ajuda à seu professor, solicite materiais complementares e dicas que podem te ajudar!",
+            "Ignore coisas que podem atrapalhar seus estudos, você é uma pessoa com muita disposição! Busque por materiais complementares e aproveite seu tempo para estudar!!",
+            "Aprofunde nos seus estudos, você sabe do que é capaz! Não ligue para o cansaço!"
+        ],
+        1: [
+            "Não fique assim, descanse um pouco ou foque nos estudos para acabar isso rápido! Pergunte coisas como 'O que significa...', sou capaz de fazer pequenas buscas na internet.",
+            "Que tal aprofundar seus conhecimentos? Pergunte sobre o que quer saber, basta iniciar sua pergunta com 'O que é...'. Vamos lá!",
+            "Quero ver você relaxado, mas antes vamos fazer o exercício, espero poder te ajudar, me pergunte algo como 'O que significa...'!",
+            "Eu também estou cansado! Mas quero te ajudar, pergunte algo como 'O que é ...'!"
+        ],
+        2: [
+            "Esqueça o cansaço, vamos estudar! Eu quero te ajudar, me pergunte algo como 'O que é...'!",
+            "Se esforçe mais um pouco! Quer estudar sobre o que? Me pergunte algo como 'O que significa...'!",
+            "Deixe todo esse cansaço pra lá! Me faça uma pergunta que eu posso te ajudar nos estudos, diga 'O que é...'!",
+            "Vamos fazer as atividadese depois você descansa, me pergunte sobre o que quer aprofundar nos seus conhecimentos, basta digitar 'O que é ...'."
+        ]
     },
     4: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Não desista agora, pesquise outros materiais para aprofundar seus conhecimentos",
+            "Ignore o cansaço, busque materiais extras para complementar seus estudos e sanar dúvidas",
+            "Tenha mais fôlego, e busque materiais extras na internet para se aprofundar no assunto",
+            "Esqueça o cansaço e tente aprofundar mais os conhecimentos para resolver o exercício"
+        ],
+        1: [
+            "Não tem problema em estar cansado, isso é muito normal. Descanse a mente e relaxe um pouco",
+            "Não se sinta mal em estar cansado. Relaxe e descanse",
+            "Você precisa relaxar e descansar. Veja um filme, converse com seus amigos, durma, ...",
+            "Não se sinta tão pressionado. Descanse e durma um pouco"
+        ],
+        2: [
+            "Não desista agora, pesquise outros materiais para aprofundar seus conhecimentos",
+            "Ignore o cansaço, busque materiais extras para complementar seus estudos e sanar dúvidas",
+            "Tenha mais fôlego, e busque materiais extras na internet para se aprofundar no assunto",
+            "Esqueça o cansaço e tente aprofundar mais os conhecimentos para resolver o exercício"
+        ]
     },
     5: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Não tem problema, você está dando seu melhor.E, depois procure outros materiais complementares de estudo",
+            "Não se estresse, o importante é tentar. Descanse um pouco e busque na internet novos materiais para estudar",
+            "Descanse um pouco, você merece e está dando o seu melhor para resolver a atividade",
+            "Não se culpe por isso, descanse e depois busque outras fontes de conhecimento na internet"
+        ],
+        1: [
+            "Eu sei que está cansado, mas tente pesquisar outros materiais para aprofundar seus conhecimentos",
+            "Descanse um pouco e depois busque materiais extras para complementar seus estudos e sanar dúvidas",
+            "Eu sei que você é capa, busque materiais extras na internet para se aprofundar no assunto e depois você poderá descansar o quanto quiser",
+            "Tente aprofundar mais os conhecimentos para resolver o exercício mais rapido possível e depois descanse"
+        ],
+        2: [
+            "Eu sei que está cansado. Mas tente resolver esse exercício agora",
+            "Não se abale com o cansaço. Te desafio a terminar a atividade agora",
+            "Se desafie, tente terminar essa atividade agora e depois descanse o quanto quiser",
+            "Eu proponho um desafio: terminar a atividade primeiro e depois descansar o quanto voceê quiser"
+        ]
     },
     6: {
         0: [
             "Não tem problema, você está dando seu melhor.E, volte mais tarde para tentar de novo",
             "Não fique cansado, o importante é tentar. Descanse um pouco e volte depois",
             "Descanse um pouco, você merece e está dando o seu melhor para resolver a atividade",
-            ""
+            "Não se culpe por isso, você só precisa descansar um pouco e depois você conseguirá resolver a atividade"
         ],
-        1: [],
-        2: []
+        1: [
+            "Não tem problema, você está dando seu melhor.E, volte mais tarde para tentar de novo",
+            "Não fique cansado, o importante é tentar. Descanse um pouco e volte depois",
+            "Descanse um pouco, você merece e está dando o seu melhor para resolver a atividade",
+            "Não se culpe por isso, você só precisa descansar um pouco e depois você conseguirá resolver a atividade"
+        ],
+        2: [
+            "Não tem problema, você está dando seu melhor.E, volte mais tarde para tentar de novo",
+            "Não fique cansado, o importante é tentar. Descanse um pouco e volte depois",
+            "Descanse um pouco, você merece e está dando o seu melhor para resolver a atividade",
+            "Não se culpe por isso, você só precisa descansar um pouco e depois você conseguirá resolver a atividade"
+        ]
     },
     7: {
         0: [

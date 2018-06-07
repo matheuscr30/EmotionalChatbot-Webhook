@@ -20,7 +20,8 @@ Emoções
 
 module.exports.conversation = function (application, req, res) {
     let body = req.body;
-    let intent = body['queryResult']['intent']['displayName'];
+console.log(body);    
+let intent = body['queryResult']['intent']['displayName'];
     let message = body['queryResult']['queryText'];
     let vals = message.split('#');
     let personality = vals[vals.length-2];
