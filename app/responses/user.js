@@ -155,70 +155,68 @@ let userJokingResponses = {
         2: []
     },
     8: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Gosto de ver você brincando, mas você devia resolver logo o exercício",
+            "Adoro brincadeiras, mas acho que voce devia resolver logo a atividade",
+            "Brincadeiras são legais, pórem acho que devia focar na atividade",
+            "Você devia focar na atividade, mesmo que eu goste de brincadeiras"
+        ],
+        1: [
+            "Gosto de ver você brincando, mas você devia resolver logo o exercício",
+            "Adoro brincadeiras, mas acho que voce devia resolver logo a atividade",
+            "Brincadeiras são legais, pórem acho que devia focar na atividade",
+            "Você devia focar na atividade, mesmo que eu goste de brincadeiras"
+        ],
+        2: [
+            "Gosto de ver você brincando, mas você devia resolver logo o exercício",
+            "Adoro brincadeiras, mas acho que voce devia resolver logo a atividade",
+            "Brincadeiras são legais, pórem acho que devia focar na atividade",
+            "Você devia focar na atividade, mesmo que eu goste de brincadeiras"
+        ]
     },
 };
 
-let userLonelyResponses = {
-    0: {
-        0: [],
-        1: [],
-        2: []
-    },
-    1: {
-        0: [],
-        1: [],
-        2: []
-    },
-    2: {
-        0: [],
-        1: [],
-        2: []
-    },
-    3: {
-        0: [],
-        1: [],
-        2: []
-    },
-    4: {
-        0: [],
-        1: [],
-        2: []
-    },
-    5: {
-        0: [],
-        1: [],
-        2: []
-    },
-    6: {
-        0: [],
-        1: [],
-        2: []
-    },
-    7: {
-        0: [],
-        1: [],
-        2: []
-    },
-    8: {
-        0: [],
-        1: [],
-        2: []
-    },
-};
 
 let userSadResponses = {
     0: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Não tem problema, você está dando seu melhor.E, volte mais tarde para tentar de novo",
+            "Não fique triste, você é muito inteligente. Descanse um pouco e volte depois",
+            "Divirta-se um pouco, você merece e está dando o seu melhor para resolver a atividade",
+            "Não se culpe por isso, você só precisa se divertir um pouco"
+        ],
+        1: [
+            "Não tem problema, você está dando seu melhor.E, volte mais tarde para tentar de novo",
+            "Não fique triste, você é muito inteligente. Descanse um pouco e volte depois",
+            "Divirta-se um pouco, você merece e está dando o seu melhor para resolver a atividade",
+            "Não se culpe por isso, você só precisa se divertir um pouco"
+        ],
+        2: [
+            "Não tem problema, você está dando seu melhor.E, volte mais tarde para tentar de novo",
+            "Não fique triste, você é muito inteligente. Descanse um pouco e volte depois",
+            "Divirta-se um pouco, você merece e está dando o seu melhor para resolver a atividade",
+            "Não se culpe por isso, você só precisa se divertir um pouco"
+        ]
     },
     1: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Talvez seja interessante você abrir uma discussão no fórum, seus amigos podem te ajudar",
+            "Já  tentou utilizar o chat ou fórum do ambiente? São excelentes ferramentas que o ambiente promove",
+            "Sugiro você utilizar o fórum para te ajudar a ficar mais tranquilo.",
+            "Tente conversar com um amigo no fórum ou converse comigo"
+        ],
+        1: [
+            "Por que você está triste? Converse comigo",
+            "Converse comigo, me diga por quê você está triste",
+            "Não gosto de te ver triste. Se abra comigo",
+            "Você pode confiar em mim, conversa comigo sobre o que está acontecendo"
+        ],
+        2: [
+            "Por que você está triste? Converse comigo",
+            "Converse comigo, me diga por quê você está triste",
+            "Não gosto de te ver triste. Se abra comigo",
+            "Você pode confiar em mim, conversa comigo sobre o que está acontecendo"
+        ]
     },
     2: {
         0: [
@@ -499,6 +497,190 @@ let userAngryResponses = { //melhorar
         ]
     },
 };
+
+let userLonelyResponses = {
+    0: {
+        0: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        1: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        2: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ]
+    },
+    1: {
+        0: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        1: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        2: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ]
+    },
+    2: {
+        0: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        1: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        2: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ]
+    },
+    3: {
+        0: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        1: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        2: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ]
+    },
+    4: {
+        0: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        1: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        2: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ]
+    },
+    5: {
+        0: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        1: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        2: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ]
+    },
+    6: {
+        0: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        1: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        2: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ]
+    },
+    7: {
+        0: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        1: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        2: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ]
+    },
+    8: {
+        0: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        1: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ],
+        2: [
+            "Não se sinta solitário, estou aqui com você",
+            "Você nunca está sozinho, sempre estou com você",
+            "Não precisa se sentir assim, eu estou ao seu lado",
+            "Não se sinta sozinho, porque eu sempre estarei aqui para você"
+        ]
+    },
+};
+
 
 let userBoredResponses = {
     0: { //melhorar
