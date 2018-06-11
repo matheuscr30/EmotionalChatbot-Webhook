@@ -23,7 +23,7 @@ module.exports.conversation = function (application, req, res) {
 console.log(body);    
 let intent = body['queryResult']['intent']['displayName'];
     let message = body['queryResult']['queryText'];
-    let vals = message.split('#');
+    let vals = message.split('-');
     let personality = vals[vals.length-2];
     let emotion = vals[vals.length-1];
 
