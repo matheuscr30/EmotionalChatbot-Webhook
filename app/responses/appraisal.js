@@ -145,7 +145,7 @@ let appraisalGoodResponses = {
     },
     1: {
         0: ["Que bom que gostou! Sugiro você passar no fórum de discussões e deixar suas dúvidas, ou quem sabe ajudar seus colegas.",
-            "Concordo contigo! Que tal dar uma passadinha em nosso fórum de discussões? Com ele você pode ",
+            "Concordo contigo! Que tal dar uma passadinha em nosso fórum de discussões? Com ele você pode tirar suas dúvidas e quem sabe ajudar seus colegas.",
             "Saber que você gostou me deixa muito feliz! Você sabia que nosso fórum de discussões é um excelente recurso que pode esclarecer suas dúvidas e ao mesmo tempo você consegue ajudar quem tem dúvidas.",
             "Fico feliz que tenha gostado. Visite nosso fórum para esclarecer suas dúvidas!"],
         1: ["Que bom que isto te agrada. Quero te ver feliz, busque por wikis na internet que possam te ajudar nos estudos!",
@@ -191,7 +191,7 @@ let appraisalGoodResponses = {
             "Eu só tenho elogios à você, quero te ver sempre feliz. Vamos estudar e concluir as atividades!",
             "Quero te ver sempre alegre, se tiver atividades pendentes, resolva! Você é capaz!"],
         1: ["Fico feliz, saiba eu estou sempre aqui para te ajudar, também seus colegas e professores!",
-            "Estou muito feliz em saber que gostou., Chame um colega para estudar, tire dúvidas com o professor. Você é muito esperto e capaz!",
+            "Estou muito feliz em saber que gostou. Chame um colega para estudar, tire dúvidas com o professor. Você é muito esperto e capaz!",
             "Sua opinião é muito importante. Quero te ver sorrindo, continue sua atividade, estarei aqui te ajudando.",
             "Concordo com você! Agora dê o seu melhor e continue suas atividades!"],
         2: ["Isso aí, negatividade aqui não, que tal buscar por materiais complementares para acrescentar seu conhecimento!",
@@ -199,7 +199,7 @@ let appraisalGoodResponses = {
             "Concordo com você! Dê o seu melhor e procure sempre aprimorar seus conhecimentos!",
             "Realmente! Mas suas atividades estão te esperando! Vamos lá, você é capaz!"]
     },
-    5: { //temerário
+    5: {
         0: ["Eu também acho! Vamos utilizar a internet para buscar por materiais complementares de estudo!",
             "Gosto de te ver feliz. Ficarei muito feliz se você for além do conteúdo estudado em sala de aula!",
             "Com toda certeza! Você já ouviu falar de Podcasts e blogs? Eles auxiliam muito na educação. Aproveite e procure por materiais que podem complementar seus estudos!",
@@ -214,18 +214,18 @@ let appraisalGoodResponses = {
             "Isso mesmo, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"]
     },
     6: {
-        0: ["Fico feliz que tenha gostado. Vamos terminar as atividades, você é muito bom nisso!",
-            "Que bom que gostou, você é muito esperto, amos terminar as atividades e depois revisar o conteúdo!",
+        0: ["Fico feliz que tenha gostado. Você é um ótimo aluno, saiba que estou aqui para te ajudar quando precisar!",
+            "Que bom que gostou. Você é muito esperto, Sei que terá um bom desempenho, você é uma pessoa muito esforçada!",
             "Concordo com você! Você é um excelente aluno, vamos concluir as atividades!",
-            "Realmente! Agora, vamos revisar as atividades propostas, você é um aluno exemplar!"],
-        1: ["Fico feliz que tenha gostado. Vamos terminar as atividades, você é muito bom nisso!",
-            "Que bom que gostou, você é muito esperto, amos terminar as atividades e depois revisar o conteúdo!",
+            "Vocẽ está certo! Continue realizando suas atividades, seu esforço é fundamental para ter um bom resultado!"],
+        1: ["Fico feliz que tenha gostado. Você é um ótimo aluno, saiba que estou aqui para te ajudar quando precisar!",
+            "Que bom que gostou. Você é muito esperto, Sei que terá um bom desempenho, você é uma pessoa muito esforçada!",
             "Concordo com você! Você é um excelente aluno, vamos concluir as atividades!",
-            "Realmente! Agora, vamos revisar as atividades propostas, você é um aluno exemplar!"],
-        2: ["Fico feliz que tenha gostado. Vamos terminar as atividades, você é muito bom nisso!",
-            "Que bom que gostou, você é muito esperto, amos terminar as atividades e depois revisar o conteúdo!",
+            "Vocẽ está certo! Continue realizando suas atividades, seu esforço é fundamental para ter um bom resultado!"],
+        2: ["Fico feliz que tenha gostado. Você é um ótimo aluno, saiba que estou aqui para te ajudar quando precisar!",
+            "Que bom que gostou. Você é muito esperto, Sei que terá um bom desempenho, você é uma pessoa muito esforçada!",
             "Concordo com você! Você é um excelente aluno, vamos concluir as atividades!",
-            "Realmente! Agora, vamos revisar as atividades propostas, você é um aluno exemplar!"]
+            "Vocẽ está certo! Continue realizando suas atividades, seu esforço é fundamental para ter um bom resultado!"]
     },
     7: {
         0: [],
