@@ -138,9 +138,21 @@ let agentAnnoyingResponses = {
         ]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ],
+        1: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ],
+        2: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ]
     },
     8: {
         0: ["No momento você deveria focar em resolver a atividade!",
@@ -291,9 +303,21 @@ let agentBoringResponses = { //melhorar
         ]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Você deveria estar resolvendo suas atividades. Você é capaz!!",
+            "Eu acho você legal e inteligente. Estou aqui para te incentivar a resolver suas atividades!",
+            "Eu só tenho elogios a você. Vamos resolver as atividades!",
+            "Isto não me parece você. Acredito que esteja com raiva. Fique tranquilo e em seguida tente resolver suas atividades!"
+        ],
+        1: ["Você deveria estar resolvendo suas atividades. Você é capaz!!",
+            "Eu acho você legal e inteligente. Estou aqui para te incentivar a resolver suas atividades!",
+            "Eu só tenho elogios a você. Vamos resolver as atividades!",
+            "Isto não me parece você. Acredito que esteja com raiva. Fique tranquilo e em seguida tente resolver suas atividades!"
+        ],
+        2: ["Você deveria estar resolvendo suas atividades. Você é capaz!!",
+            "Eu acho você legal e inteligente. Estou aqui para te incentivar a resolver suas atividades!",
+            "Eu só tenho elogios a você. Vamos resolver as atividades!",
+            "Isto não me parece você. Acredito que esteja com raiva. Fique tranquilo e em seguida tente resolver suas atividades!"
+        ]
     },
     8: {
         0: ["No momento você deveria focar em resolver a atividade!",

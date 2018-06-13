@@ -116,9 +116,18 @@ let dialogIDoNotCareResponses = {
             "Continue executando suas atividades. Ao final terá um bom reconhecimento por conta de toda sua dedicação!"]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Já procurou algum material na internet? Te recomendo fazer isso para se motivar mais!",
+            "Se for com a atividade, você deveria se importar. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Você pode até não se importar comigo, mas deveria se importar com as atividades. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Não sei o que tem te causado indiferença, mas para as atividades é bom que esteja feliz. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."],
+        1: ["Já procurou algum material na internet? Te recomendo fazer isso para se motivar mais!",
+            "Se for com a atividade, você deveria se importar. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Você pode até não se importar comigo, mas deveria se importar com as atividades. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Não sei o que tem te causado indiferença, mas para as atividades é bom que esteja feliz. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."],
+        2: ["Já procurou algum material na internet? Te recomendo fazer isso para se motivar mais!",
+            "Se for com a atividade, você deveria se importar. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Você pode até não se importar comigo, mas deveria se importar com as atividades. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Não sei o que tem te causado indiferença, mas para as atividades é bom que esteja feliz. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."]
     },
     8: {
         0: ["No momento você deveria focar para fazer uma excelente atividade. Você demonstra capacidade!",
@@ -235,9 +244,18 @@ let dialogSorryResponses = {
             "Não se preocupe! Nada de desculpas, pois já está tudo certo. Continue sendo um estudante efetivo e útil!"]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Está tudo bem! Ficarei mais feliz se você for além do conteúdo da atividade e aprofundar seu conhecimento.",
+            "Tudo desculpado! Recomendo sempre procurar materiais na internet ou tirar dúvida com seus colegas para engrandecer!",
+            " Está tudo certo! O que me preocupa é que temos um plano de estudos para cumprir. Aproveite a internet e busque por materiais extras para te auxiliar",
+            "Tudo ok! Corra atrás de materiais extras e tente sempre cumprir com seus prazos!"],
+        1: ["Está tudo bem! Ficarei mais feliz se você for além do conteúdo da atividade e aprofundar seu conhecimento.",
+            "Tudo desculpado! Recomendo sempre procurar materiais na internet ou tirar dúvida com seus colegas para engrandecer!",
+            " Está tudo certo! O que me preocupa é que temos um plano de estudos para cumprir. Aproveite a internet e busque por materiais extras para te auxiliar",
+            "Tudo ok! Corra atrás de materiais extras e tente sempre cumprir com seus prazos!"],
+        2: ["Está tudo bem! Ficarei mais feliz se você for além do conteúdo da atividade e aprofundar seu conhecimento.",
+            "Tudo desculpado! Recomendo sempre procurar materiais na internet ou tirar dúvida com seus colegas para engrandecer!",
+            " Está tudo certo! O que me preocupa é que temos um plano de estudos para cumprir. Aproveite a internet e busque por materiais extras para te auxiliar",
+            "Tudo ok! Corra atrás de materiais extras e tente sempre cumprir com seus prazos!"]
     },
     8: {
         0: ["Tudo desculpado!! Você me aparenta gostar das coisas bem feitas. Acredito que logo logo resolverá esta atividade e te sugiro ajudar seus colegas",

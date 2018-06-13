@@ -114,9 +114,18 @@ let emotionsHaHaResponses = {
             "Muito saber que está feliz! Estou sempre aqui para te ajudar, quer ver você tendo sucesso!"]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "O sorriso atrai positividade. Faça as atividades, busque por materiais que complementem seus estudos.",
+            "Que bom que está sorrindo. Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, sorria, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"],
+        1: ["Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "O sorriso atrai positividade. Faça as atividades, busque por materiais que complementem seus estudos.",
+            "Que bom que está sorrindo. Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, sorria, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"],
+        2: ["Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "O sorriso atrai positividade. Faça as atividades, busque por materiais que complementem seus estudos.",
+            "Que bom que está sorrindo. Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, sorria, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"]
     },
     8: {
         0: ["Que bom que está sorrindo! Termine seus exercícios e depois ajude seus colegas que estão com dificuldades!",
@@ -238,9 +247,24 @@ let emotionsWowResponses = {
             "Muito saber que você gostou! Estou sempre aqui para te ajudar, quer ver você tendo sucesso!"]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "É impressionante mesmo. Agora faça as atividades, busque por materiais que complementem seus estudos, sei que você é capaz.",
+            "Que bom que isto te agrada. Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, é realmente surpreendente, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"
+        ],
+        1: [
+            "Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "É impressionante mesmo. Agora faça as atividades, busque por materiais que complementem seus estudos, sei que você é capaz.",
+            "Que bom que isto te agrada. Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, é realmente surpreendente, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"
+        ],
+        2: [
+            "Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "É impressionante mesmo. Agora faça as atividades, busque por materiais que complementem seus estudos, sei que você é capaz.",
+            "Que bom que isto te agrada. Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, é realmente surpreendente, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"
+        ]
     },
     8: {
         0: ["Que bom que está gostou! Termine seus exercícios e depois ajude seus colegas que estão com dificuldades!",

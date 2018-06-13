@@ -116,18 +116,18 @@ let userExcitedResponses = {
             "Adoro saber que está tão animado. Aproveite sua energia para procurar materiais na internet ou tirar dúvida com seus colegas! "]
     },
     7: {
-        0: ["",
-            "",
-            "",
-            ""],
-        1: ["",
-            "",
-            "",
-            ""],
-        2: ["",
-            "",
-            "",
-            ""]
+        0: ["Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "OBAAA, que bom te ver tão animado. Aproveite e faça as atividades, busque por materiais que complementem seus estudos.",
+            "Que bom que está alegre. Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, quero te ver sempre empolgado assim, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"],
+        1: ["Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "OBAAA, que bom te ver tão animado. Aproveite e faça as atividades, busque por materiais que complementem seus estudos.",
+            "Que bom que está alegre. Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, quero te ver sempre empolgado assim, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"],
+        2: ["Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "OBAAA, que bom te ver tão animado. Aproveite e faça as atividades, busque por materiais que complementem seus estudos.",
+            "Que bom que está alegre. Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, quero te ver sempre empolgado assim, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"]
     },
     8: {
         0: ["Isso aí, que alegria contagiante. Aproveita para fazer suas atividades, fique atento aos prazos de entrega.",
@@ -425,9 +425,24 @@ let userSadResponses = {
         ]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: [
+            "Eu sei que está triste. Mas tente resolver esse exercício agora",
+            "Não se abale com a tristeza. Te desafio a terminar a atividade agora",
+            "Se desafie, tente terminar essa atividade agora e depois você pode sair e se divertir com seus amigos",
+            "Eu proponho um desafio: terminar a atividade primeiro e depois se divirta o quanto quiser"
+        ],
+        1: [
+            "Eu sei que está triste. Mas tente resolver esse exercício agora",
+            "Não se abale com a tristeza. Te desafio a terminar a atividade agora",
+            "Se desafie, tente terminar essa atividade agora e depois você pode sair e se divertir com seus amigos",
+            "Eu proponho um desafio: terminar a atividade primeiro e depois se divirta o quanto quiser"
+        ],
+        2: [
+            "Eu sei que está triste. Mas tente resolver esse exercício agora",
+            "Não se abale com a tristeza. Te desafio a terminar a atividade agora",
+            "Se desafie, tente terminar essa atividade agora e depois você pode sair e se divertir com seus amigos",
+            "Eu proponho um desafio: terminar a atividade primeiro e depois se divirta o quanto quiser"
+        ]
     },
     8: {
         0: [
@@ -581,9 +596,21 @@ let userAngryResponses = { //melhorar
         ]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ],
+        1: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ],
+        2: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ]
     },
     8: {
         0: ["No momento você deveria focar em resolver a atividade!",
@@ -787,7 +814,6 @@ let userLonelyResponses = {
     },
 };
 
-
 let userBoredResponses = {
     0: { //melhorar
         0: ["Não se irrite comigo, só estou tentando te ajudar e sei que você é capaz",
@@ -918,9 +944,21 @@ let userBoredResponses = {
         ]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ],
+        1: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ],
+        2: ["Talvez eu não esteja sendo necessário neste momento. Tente procurar vídeos na internet.",
+            "Me desculpa não estar sendo útil neste momento. Experimente visitar a biblioteca e verificar os materiais necessários para este conteúdo",
+            "Devo não estar te ajudando. Procure por materiais na internet, eles podem ser uma boa opção para complementar seu conhecimento.",
+            "Que pena não estar te ajudando. Blogs e wikis são ótimas alternativas de conteúdo disponíveis aqui na internet. Eles são meus parceiros."
+        ]
     },
     8: {
         0: ["No momento você deveria focar em resolver a atividade!",
@@ -1062,9 +1100,21 @@ let userHappyResponses = {
         ]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Você conhece sobre tecnologias educacionais? Podcasts e blogs também servem para auxiliar na educação. Aproveite que está alegre e procure materiais complementares para o conteúdo estudado",
+            "Seu assistente também está feliz por você. Ficarei mais feliz se você for além do conteúdo da atividade e aprofundar seu conhecimento.",
+            "Continue feliz. A internet possui materiais distintos que podem te ensinar enquanto diverte. Procure mais sobre o conteúdo estudado.",
+            "Que bom que você está feliz, aproveite a internet para procurar novidades sobre o tema que está estudando!"
+        ],
+        1: ["Você conhece sobre tecnologias educacionais? Podcasts e blogs também servem para auxiliar na educação. Aproveite que está alegre e procure materiais complementares para o conteúdo estudado",
+            "Seu assistente também está feliz por você. Ficarei mais feliz se você for além do conteúdo da atividade e aprofundar seu conhecimento.",
+            "Continue feliz. A internet possui materiais distintos que podem te ensinar enquanto diverte. Procure mais sobre o conteúdo estudado.",
+            "Que bom que você está feliz, aproveite a internet para procurar novidades sobre o tema que está estudando!"
+        ],
+        2: ["Você conhece sobre tecnologias educacionais? Podcasts e blogs também servem para auxiliar na educação. Aproveite que está alegre e procure materiais complementares para o conteúdo estudado",
+            "Seu assistente também está feliz por você. Ficarei mais feliz se você for além do conteúdo da atividade e aprofundar seu conhecimento.",
+            "Continue feliz. A internet possui materiais distintos que podem te ensinar enquanto diverte. Procure mais sobre o conteúdo estudado.",
+            "Que bom que você está feliz, aproveite a internet para procurar novidades sobre o tema que está estudando!"
+        ]
     },
     8: {
         0: ["Vamos resolver as atividades propostas no ambiente de aprendizado, você pode aprender muito com elas!",

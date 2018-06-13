@@ -108,9 +108,18 @@ let appraisalBadResponses = {
             "Você é um aluno muito bom, não se preocupe com coisas ruins. Você é capaz de muitas coisas incríveis!"]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "Alegria gera alegria, vamos fazer as atividades, busque por materiais que complementem seus estudos.",
+            "Sei de algo que possa te ajudar, a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Aproveite apenas as coisas boas, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"],
+        1: ["Nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "Alegria gera alegria, vamos fazer as atividades, busque por materiais que complementem seus estudos.",
+            "Sei de algo que possa te ajudar, a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Aproveite apenas as coisas boas, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"],
+        2: ["Nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "Alegria gera alegria, vamos fazer as atividades, busque por materiais que complementem seus estudos.",
+            "Sei de algo que possa te ajudar, a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Aproveite apenas as coisas boas, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"]
     },
     8: {
         0: ["Todos temos momentos ruins, sei que você gosta de tudo bem feito. Fique de olho no prazo de suas atividades!",
@@ -228,9 +237,18 @@ let appraisalGoodResponses = {
             "Vocẽ está certo! Continue realizando suas atividades, seu esforço é fundamental para ter um bom resultado!"]
     },
     7: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "Concordo com você. Agora, vamos fazer as atividades, busque por materiais que complementem seus estudos.",
+            "Que bom que gostou, Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"],
+        1: ["Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "Concordo com você. Agora, vamos fazer as atividades, busque por materiais que complementem seus estudos.",
+            "Que bom que gostou, Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"],
+        2: ["Isso mesmo, nada de negatividade, vamos fazer as atividades e depois descanse fazendo coisas que te façam bem!",
+            "Concordo com você. Agora, vamos fazer as atividades, busque por materiais que complementem seus estudos.",
+            "Que bom que gostou, Você sabia que a internet possui muitos recursos interessantes que podem despertar ainda mais seu interesse pelo conteúdo que está estudando!",
+            "Isso mesmo, nada de negatividade! Faça as atividades, você pode buscar por materiais complementares na internet. Podcasts e blogs podem ser uma ótima alternativa!"]
     },
     8: {
         0: ["Que bom que gostou! Termine suas atividades e depois ajude seus colegas que estão com dificuldades!",
