@@ -18,14 +18,26 @@ Second Index = Emotion
 
 let userExcitedResponses = {
     0: {
-        0: [],
-        1: [],
-        2: []
+        0: ["Que bom que está animado! Fico muito feliz. Espero que fazer a atividade te anime ainda mais!",
+            "OOOBA! vamos animar mais fazendo as atividades!",
+            "Que legal que está ficando animado! Vamos trabalhar muito juntos hoje!",
+            "AEEEE! Meu objetivo é que fique com essa animação. Focar na atividade te ajudará mais ainda!"],
+        1: ["Que bom que está animado! Fico muito feliz. Espero que fazer a atividade te anime ainda mais!",
+            "OOOBA! vamos animar mais fazendo as atividades!",
+            "Que legal que está ficando animado! Vamos trabalhar muito juntos hoje!",
+            "AEEEE! Meu objetivo é que fique com essa animação. Focar na atividade te ajudará mais ainda!"],
+        2: ["Que bom que está animado! Fico muito feliz. Espero que fazer a atividade te anime ainda mais!",
+            "OOOBA! vamos animar mais fazendo as atividades!",
+            "Que legal que está ficando animado! Vamos trabalhar muito juntos hoje!",
+            "AEEEE! Meu objetivo é que fique com essa animação. Focar na atividade te ajudará mais ainda!"]
     },
     1: {
         0: [],
         1: [],
-        2: []
+        2: ["Bom saber que está recuperando a animação. Você sabia que existem alguns colegas que podem estar com dúvidas. Que tal procurar um fórum de discussão?",
+            "Te ver ficando nesta animação me anima mais ainda! Talvez participar de um fórum de discussão pode te fazer melhor ainda!",
+            "Animação é sempre o segredo para uma boa atividade! Pelo seu perfil, você vai gostar mais ainda se discutir com mais gente sobre esta atividade!",
+            "Vejo que está melhorando seu estado! Fico feliz por isso. Continue nesta animação! Participe de chates, fóruns, etc."]
     },
     2: {
         0: [],
