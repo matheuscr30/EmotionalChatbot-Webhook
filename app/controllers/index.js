@@ -61,9 +61,6 @@ let intent = body['queryResult']['intent']['displayName'];
         case "smalltalk.user.bored":
             application.controllers.user.userBored(application, res, intent, personality, emotion);
             break;
-        case "smalltalk.user.does_not_want_to_talk":
-            application.controllers.user.userDoesNotWantToTalk(application, res, intent, personality, emotion);
-            break;
         case "smalltalk.user.excited":
             application.controllers.user.userExcited(application, res, intent, personality, emotion);
             break;

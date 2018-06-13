@@ -18,16 +18,6 @@ module.exports.userBored = function (application, res, intent, personality, emot
     });
 };
 
-module.exports.userDoesNotWantToTalk = function (application, res, intent, personality, emotion) {
-    let responses = global.userDoesNotWantToTalkResponses[personality][emotion];
-    let rand = application.controllers.funcs.generateRand(responses.length);
-    let result = responses[rand];
-
-    res.status(200).json({
-        "fulfillmentText": result
-    });
-};
-
 module.exports.userExcited = function (application, res, intent, personality, emotion) {
     let responses = global.userExcitedResponses[personality][emotion];
     let rand = application.controllers.funcs.generateRand(responses.length);
