@@ -147,18 +147,20 @@ let userExcitedResponses = {
 
 let userJokingResponses = {
     0: {
-        0: ["",
-            "",
-            "",
-            ""],
-        1: ["",
-            "",
-            "",
-            ""],
-        2: ["",
-            "",
-            "",
-            ""]
+        0: ["Não se preocupe, sei que está brincando. Mas agora é hora para fazer o exercício, tenha certeza que não é tão complicado quanto parece.",
+            "Hm, não teve graça! Vamos fazer o exercício agora?",
+            "Ok, mas chega de brincadeiras. Agora vamos fazer o exercício, pois sei que você é totalmente capaz.",
+            "Eu sei que foi só uma brincadeira. Agora vamos fazer as atividades, você é muito eficiente, sei que terminará logo."],
+        1: [
+            "É bom saber que está se divertindo, mas agora é a hora perfeita para fazer o exercício",
+            "Sei que está brincando, gosto de saber que está alegre. Vamos fazer o exercício agora?",
+            "Tudo bem, vamos sorrir para tristeza ir embora. Vamos fazer o exercício, pois sei que você é totalmente capaz.",
+            "Sei que está brincando! Agora vamos fazer as atividades. Sei que é um pouco complicado, mas você é muito eficiente, terminará logo."],
+        2: [
+            "Entendo que está brincando, gosto de coisas positivas!Tente fazer os exercícios, você vai ver que não é tão complicado.",
+            "É muito bom saber que está contente e brincalhão, tente ser sempre positivo. Tente fazer as atividades, sei que você consegue.",
+            "Sei que está brincando! Agora vamos fazer os exercícios, parece difícil, mas sei que você é totalmente capaz.",
+            "Sei que está brincando, mas agora faça as atividades, parecem difíceis, mas não são."]
     },
     1: {
         0: ["",
