@@ -20,12 +20,19 @@ Emoções
 
 module.exports.conversation = function (application, req, res) {
     let body = req.body;
-console.log(body);    
-let intent = body['queryResult']['intent']['displayName'];
+    console.log(body);
+    let intent = body['queryResult']['intent']['displayName'];
     let message = body['queryResult']['queryText'];
     let vals = message.split('-');
-    let personality = vals[vals.length-2];
-    let emotion = vals[vals.length-1];
+    let personality, emotion;
+
+    if(vals != undefined && vals.length >= 2){
+        personality = vals[vals.length-2];
+        emotion = vals[vals.length-1];
+    } else {
+        personality = 0;
+        emotion = 0;
+    }
 
     switch (intent){
         case "smalltalk.agent.annoying":
@@ -54,6 +61,9 @@ let intent = body['queryResult']['intent']['displayName'];
             break;
         case "smalltalk.emotions.wow":
             application.controllers.emotions.emotionsWow(application, res, intent, personality, emotion);
+            break;
+        case "smalltalk.information.whatIsIt":
+            application.controllers.funcs.whatIsIt(application, req, res, intent, personality, emotion);
             break;
         case "smalltalk.user.angry":
             application.controllers.user.userAngry(application, res, intent, personality, emotion);
