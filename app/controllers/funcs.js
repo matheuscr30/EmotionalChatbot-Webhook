@@ -10,7 +10,8 @@ module.exports.whatIsIt = function (application, req, res, intent, personality, 
     let searchText = body['queryResult']['parameters']['searchText'];
     let vals = searchText.split('-');
     searchText = vals[0];
-    console.log(searchText);
+    vals = searchText.split('?');
+    searchText = vals[0];
     let response = "";
 
     //'https://pt.wikipedia.org/w/api.php?action=opensearch&lang=pt-br&search=' + searchText + '&limit=1&namespace=0&format=json'
