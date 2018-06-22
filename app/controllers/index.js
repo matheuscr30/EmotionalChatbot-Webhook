@@ -23,16 +23,8 @@ module.exports.conversation = function (application, req, res) {
     console.log(body);
     let intent = body['queryResult']['intent']['displayName'];
     let message = body['queryResult']['queryText'];
-    let vals = message.split('-');
-    let personality, emotion;
-
-    if(vals != undefined && vals.length >= 2){
-        personality = vals[vals.length-2];
-        emotion = vals[vals.length-1];
-    } else {
-        personality = 0;
-        emotion = 0;
-    }
+    let personality = body['originalDetectIntentRequest']['payload']['personality'];
+    let emotion = body['originalDetectIntentRequest']['payload']['emotion'];
 
     switch (intent){
         case "smalltalk.agent.annoying":
